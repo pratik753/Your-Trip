@@ -1,0 +1,36 @@
+.container {
+    /* background-color: rgb(174, 168, 231); */
+    /* display: flexbox */
+    /* display: flexbox;
+ column-gap: normal; */
+    margin: 2rem 26rem;
+    border-color: 2rem yellowgreen;
+    /* background-color: rgb(130, 150, 238); */
+}
+
+.fillbox {
+    margin-top: 2rem;
+    width: 19rem;
+    height: 5rem;
+    margin-bottom: 4rem;
+    padding: 3rem 3rem;
+    /* background-color: white; */
+}
+
+.sub {
+    width: 5rem;
+    height: 2rem;
+    background-color: rgb(66, 183, 230);
+    font-size: medium;
+}
+
+.sub.hover {
+    background-color: yellow;
+}
+
+.lock {
+    margin: auto;
+    background-color: rgb(161, 180, 216);
+    margin-top: 1rem;
+    border-radius: 3rem;
+}

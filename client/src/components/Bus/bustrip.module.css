@@ -1,0 +1,58 @@
+/* .box{
+   
+    margin: 2rem 9rem;
+    background-color: pink;
+    padding: 5rem 5rem; */
+
+
+/* font-size: larger;
+    background-color: black;
+    color:blanchedalmond;
+     width: 50rem;
+     height: 20rem;
+     margin-top: 2rem;
+     padding: 12rem 13rem rgb(196, 32, 32);      */
+
+
+/* }
+.fillbox{
+  display: flex;
+  
+
+}  */
+
+.flexcontainer {
+    width: 70%;
+    margin: auto;
+    /* background-color: #e22929; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* width: 100%; */
+    /* margin: 1rem;
+    width: 50%;n  
+     margin: auto;
+  border: 3px solid green;
+  padding: 10px;
+    padding: 3rem 9rem; */
+    /* font-size: 30px; */
+    /* background-color: rgb(157, 194, 231); */
+}
+
+.box {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+.fillbox {
+    padding: 2rem 2rem;
+    background-color: rgb(243, 240, 243);
+    margin-right: 0.2rem;
+    margin-left: 0rem;
+    font-size: larger;
+}
+
+.subbutton.hover {
+    background-color: rgb(211, 77, 166);
+}

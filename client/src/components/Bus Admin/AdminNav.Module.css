@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: aqua; */
+}
+.container{
+    width: 25rem;
+    height: 6rem;
+    margin: 2rem 25rem;
+    padding:  2rem;
+    display: flex;
+     /* background-color: burlywood; */
+   
+    /* background-color: rgb(73, 25, 25); */
+}
+.box{
+    margin: 0rem 3rem;
+    /* background-color: rgb(153, 45, 45); */
+}

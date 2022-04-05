@@ -1,0 +1,98 @@
+.tableMainDiv {
+    /* border: 1rem solid black; */
+    padding: 3rem;
+    padding-top: .5rem;
+}
+
+.table {
+    margin: auto;
+    border: .5rem solid black;
+    /* padding: 3rem; */
+    background-color: antiquewhite;
+}
+
+.table tr {
+    display: flex;
+    margin: 1rem;
+    /*padding: 3rem; */
+    /* background-color: antiquewhite; */
+}
+
+.table td {
+    display: flex;
+    /* margin: 2rem;
+    padding: 2rem; */
+    /* background-color: antiquewhite; */
+}
+
+.table p {
+    /* padding: 2rem; */
+    /* margin: 2rem;
+    padding: 2rem; */
+    /* background-color: antiquewhite; */
+}
+
+.driver {
+    margin-top: 1rem;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 2rem;
+    background-color: gray;
+    margin-left: 25rem;
+}
+
+.blank {
+    /* display: block; */
+    border-radius: 1rem;
+    margin: 1rem;
+    width: 2.5rem;
+    height: 1rem;
+    background-color: transparent;
+}
+
+.allow {
+    cursor: pointer;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1.5rem;
+    width: 1rem;
+    height: 1rem;
+    background-color: skyblue;
+}
+
+.allow:hover {
+    background-color: gold;
+}
+
+
+/* .allow:focus {
+    background-color: green;
+} */
+
+.number {
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1.5rem;
+    width: 1rem;
+    height: 1rem;
+    background-color: greenyellow;
+}
+
+.block {
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1.5rem;
+    width: 1rem;
+    height: 1rem;
+    background-color: gray;
+}
+
+.seatsDiv {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+/* .busSeat {
+    padding: 1rem;
+} */

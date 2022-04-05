@@ -1,0 +1,29 @@
+.allowSeat {
+    cursor: pointer;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1.5rem;
+    width: 1rem;
+    height: 1rem;
+    background-color: blueviolet;
+}
+
+.allow {
+    cursor: pointer;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1.5rem;
+    width: 1rem;
+    height: 1rem;
+    background-color: skyblue;
+}
+
+.block {
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1.5rem;
+    width: 1rem;
+    height: 1rem;
+    cursor: not-allowed;
+    background-color: gray;
+}
