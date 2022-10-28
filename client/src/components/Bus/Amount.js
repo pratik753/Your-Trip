@@ -34,7 +34,7 @@ const Amount = () => {
           <h4>Discount : Rs. 50.00</h4>
         </Grid>
         <Grid item xs="8">
-          <h4>ToTal Price : Rs. 350.00</h4>
+          <h4>Total Price : Rs. 350.00</h4>
         </Grid>
       </Grid>
     </>

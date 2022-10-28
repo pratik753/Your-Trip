@@ -28,20 +28,7 @@ const Bustrip = () => {
 
   return (
     <>
-      {/* <div className={classes.flexcontainer}>
-        <div className={classes.box}>
-          <div className={classes.fillbox}> */}
-      {/* <h4>from</h4> */}
-      {/* <h2>jamshedpur</h2> */}
-
-      {/* <text 
-            onChange={tohandler}
-            value={value.to}
-            className="blank"
-            type="to"
-            id="exampleInputEmail1" */}
-      {/* // placeholder="name"
-          /> */}
+    
       <br />
       <div className={classes.flexcontainer}>
         <Grid container spacing={2} justifyContent="center" alignItems="center">
