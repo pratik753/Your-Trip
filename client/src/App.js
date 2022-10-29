@@ -23,8 +23,7 @@ import { useSelector } from "react-redux";
 const App = () => {
   const [passNo, setPassNo] = useState(1);
   const [roleNav, setRole] = useState(1);
-  // localStorage.setItem("role", 0;
-  //     localStorage.setItem("auth", );
+ 
   const isRole = useSelector((state) => state.auth.role);
   const isAuth = useSelector((state) => state.auth.isAuthenticaticated);
   return (
@@ -74,7 +73,7 @@ const App = () => {
         <Route path="/profile" exact>
           <UserProfile />
         </Route>
-        {/* ///////////----------------////////// */}
+        
         <Route path="/busAdmin/addBus">
           {isAuth ? <AddBus /> : "not auth"}
         </Route>
@@ -85,10 +84,6 @@ const App = () => {
         <Route path="/zonalHead/promocode" exact>
           <Promocode />
         </Route>
-        {/* <Route path="/conformation" exact>
-          <Conformation />
-          <Card />
-        </Route> */}
 
         {/* ---------------- */}
       </Switch>

@@ -7,13 +7,12 @@ const mongoose = require("mongoose");
 const app = express();
 app.use(express.json({ limit: "200kb" }));
 app.use(bodyParser.json());
-app.use(express.urlencoded({ extended: true })); //urlencodednp
+app.use(express.urlencoded({ extended: true })); 
 app.use(cors()); //cors
 
 const busRoute = require("./Routes/BusRoute");
 const PaymentRoute = require("./Routes/PaymentRoute");
 const UserRoute = require("./Routes/UserRoute");
-//const entryRoute=require('./Routes/EntryRoutes')
 
 console.log(process.env.DATABASE);
 const DB = process.env.DATABASE.replace(
@@ -25,7 +24,7 @@ mongoose
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
-  .then(() => console.log("DB connection successful!"));
+  .then(() => console.log("DataBase connected!"));
 app.use("/bus", busRoute);
 app.use("/payment", PaymentRoute);
 app.use("/user", UserRoute);
